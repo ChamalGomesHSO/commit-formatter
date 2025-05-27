@@ -1,0 +1,11 @@
+[tool.commit_hook]
+
+types = [
+  { value = "feat", name = "A new feature" },
+  { value = "bug", name = "A bug fix" },
+  { value = "perf", name = "Improve performance" },
+  { value = "docs", name = "Documentation-only changes" },
+  { value = "style", name = "Code style changes (formatting, etc)" },
+  { value = "ref", name = "Code refactor without behavior change" },
+  { value = "ci", name = "CI/CD configuration or scripts" },
+]
