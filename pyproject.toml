@@ -1,0 +1,16 @@
+[project]
+name = "commit_formatter"
+authors = [
+    {name = "Chamal Gomes", email= "chamalgomes166@gmail.com.au"},
+
+]
+description = "Simple git hook for formatting commit messages"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "tomli >= 1.1.0 ; python_version < '3.11'"
+]
+version = "0.0.1"
