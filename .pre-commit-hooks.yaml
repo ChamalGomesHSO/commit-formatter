@@ -1,6 +1,6 @@
 - id: custom-commit-msg
   name: Custom Commit Message Prompter
-  entry: hooks/hook.py
+  entry: hook.py
   language: python
   types: [text]
   stages: [prepare-commit-msg]
