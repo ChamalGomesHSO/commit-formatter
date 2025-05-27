@@ -2,4 +2,4 @@
   name: Custom Commit Message Prompter
   entry: python3 hook.py
   language: system
-  stages: [commit-msg]
+  stages: [prepare-commit-msg]
